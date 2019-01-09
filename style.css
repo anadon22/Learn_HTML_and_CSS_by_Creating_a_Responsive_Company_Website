@@ -1,0 +1,147 @@
+
+body {
+  /*default setting*/
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.nav {
+  background-color: cadetblue;
+  color: white;
+}
+/* nav element is div parent element, and ul is inside that parent */
+.nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.nav ul li {
+  padding: 16px;
+  text-align: center;
+  /* rem = root element size */
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+  transition: background-color 0.2s;
+}
+.nav ul li:hover {
+  background-color: black;
+}
+
+.image-area {
+  background-image: url('images/background.png');
+  background-color: black;
+  background-position: center center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+}
+.centered-container {
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+.image-text {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.intro-text {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.single-service p {
+  padding: 0px 16px;
+}
+
+@media screen and (min-width: 700px) {
+  .nav ul {
+    text-align: right;
+  }
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    text-align: left;
+  }
+  .single-service {
+    width: 50%;
+    float: left;
+  }
+
+}
+
+
+
+/*0
+h1 {
+  color: red;
+}
+#mainParagraph {
+  color: yellow;
+  background-color: green;
+}
+
+.vegetables {
+  color: green;
+}
+.meat {
+  color: red;
+}
+.other {
+}
+
+.keypoint {
+  font-family: 'Staatliches', cursive;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+body {
+  font-size: 16px;
+}
+h1 {
+  //inherits the size of a parent - same
+  //font-size: 1em;
+
+  //its double the size of a parent
+  font-size: 2em;
+
+}
+#box1 {
+  background-color: yellow;
+  //border width is also added in total width
+  border: 2px solid black;
+  width: 200px;
+  height: 100px;
+  //padding gets added to total width
+  padding: 20px;
+  margin: 20px auto 20px auto;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+}
+#box2 {
+  background-color: red;
+  //border width is also added in total width
+  border: 2px solid black;
+  width: 100px;
+  height: 50px;
+  // padding gets added to total width
+  padding: 20px;
+  margin: 20px;
+}
+*/

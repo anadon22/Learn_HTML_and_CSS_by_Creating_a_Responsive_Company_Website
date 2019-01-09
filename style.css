@@ -1,3 +1,16 @@
 h1 {
   color: red;
 }
+#mainParagraph {
+  color: yellow;
+  background-color: green;
+}
+
+.vegetables {
+  color: green;
+}
+.meat {
+  color: red;
+}
+.other {
+}

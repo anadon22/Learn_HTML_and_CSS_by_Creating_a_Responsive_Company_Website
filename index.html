@@ -7,6 +7,14 @@
     <!-- this is what google will show in description- CONTENT-->
     <meta name="description" content="this is what Google will show in description!">
     <link rel="icon" href="images/favicon.ico">
+    <!-- fonts must be included before css file -->
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Staatliches');
+    </style>
+    <!-- or included with link tag -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+
+    <!-- css file include -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -24,7 +32,7 @@
 
 
     <!-- select by class -->
-    <h2>Selection of element with class</h2>
+    <h2>Selection of <span class="keypoint">element</span> with class</h2>
     <ul>
       <li class="vegetables">Spinach</li>
       <li class="meat">Chicken</li>
